@@ -1,7 +1,9 @@
 <!-- @file Instructions for subtheming using the CDN Starterkit. -->
 <!-- @defgroup sub_theming_cdn -->
 <!-- @ingroup sub_theming -->
-# CDN Starterkit
+# DPM Bootstrap (CND subtheme)
+
+This is a subtheme of the [Bootstrap starter theme](https://www.drupal.org/project/bootstrap) built for Drupal 8.
 
 The CDN Starterkit is rather simple to set up. You don't have to do anything
 until you wish to override the default [Drupal Bootstrap] base theme settings
