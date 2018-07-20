@@ -11,9 +11,9 @@ var Drupal = Drupal || {};
   $( function() {
     $( "#slider-range" ).slider({
       range: true,
-      min: 1700,
-      max: 2018,
-      values: [ 1700, 2018 ],
+      min: $( '.timeline-year' ).first().data('year'),
+      max: $( '.timeline-year' ).last().data('year'),
+      values: [ $( '.timeline-year' ).first().data('year'), $( '.timeline-year' ).last().data('year') ],
       slide: function( event, ui ) {
         $( "#amount" ).val( ui.values[ 0 ] + " - " + ui.values[ 1 ] );
       },
