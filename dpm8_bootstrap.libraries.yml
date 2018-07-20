@@ -2,3 +2,13 @@ global-styling:
   css:
     theme:
       css/style.css: {}
+
+timeline:
+  css:
+    theme:
+      '//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css': { type: external, minified: true }
+  js:
+    js/timeline.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.ui.slider
